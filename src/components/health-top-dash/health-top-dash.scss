@@ -1,0 +1,47 @@
+health-top-dash {
+  .top_orange_card {
+    margin: 0px;
+    width: 100%;
+    border-radius: 0px
+  }
+  .text-36 {
+    font-size: 36px !important;
+    font-family: roboto_font!important;
+  }
+  .text-16{
+    font-size: 16px !important;
+    font-family: roboto_font!important;
+  }
+  .text-17{
+    font-size: 17px !important;
+    font-family: roboto_font!important;
+  }
+  .text-24{
+    font-size: 24px !important;
+    font-family: roboto_font!important;
+  }
+  .text-14{
+    font-size: 14px !important;
+    font-family: roboto_font!important;
+  }
+  .white{
+      color:#fff;
+  }
+  .orange{
+    color:#F26722;
+  }
+  .start_btn{
+      width: 60%;
+      margin: auto;
+      border-radius: 20px;
+      background: #fff;
+      height: 40px;
+      padding-top: 10px;
+      font-family: roboto_font!important;
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+  .ion-select{
+    max-width: 100%!important;
+  }
+}

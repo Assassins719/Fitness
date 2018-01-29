@@ -38,10 +38,18 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  tabcolor:    #133749,
+  bkgcolor:   #0e2739,
+  cardtitlecolor: #9494AF
 );
 
-
+.tabs-md-tabcolor .tab-button:hover:not(.disable-hover), .tabs-md-tabcolor .tab-button[aria-selected=true], .tabs-md-tabcolor .tab-button[aria-selected=true] .tab-button-icon{
+  color:#F26722!important;
+}
+.tabs-ios-tabcolor .tab-button[aria-selected=true], .tabs-ios-tabcolor .tab-button[aria-selected=true] .tab-button-icon{
+  color:#F26722!important;
+}
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
