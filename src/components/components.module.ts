@@ -6,6 +6,7 @@ import { PopoverComponent } from './popover/popover';
 import { HealthExerciseComponent } from './health-exercise/health-exercise';
 import { HealthFeedComponent } from './health-feed/health-feed';
 import { HealthRecipesComponent } from './health-recipes/health-recipes';
+import { HealthWatchComponent } from './health-watch/health-watch';
 @NgModule({
 	declarations: [HealthTopDashComponent,
     HealthYourselfComponent,
@@ -13,7 +14,9 @@ import { HealthRecipesComponent } from './health-recipes/health-recipes';
     PopoverComponent,
     HealthExerciseComponent,
     HealthFeedComponent,
-    HealthRecipesComponent],
+    HealthRecipesComponent,
+    HealthWatchComponent,
+    ],
 	imports: [],
 	exports: [HealthTopDashComponent,
     HealthYourselfComponent,
@@ -21,6 +24,7 @@ import { HealthRecipesComponent } from './health-recipes/health-recipes';
     PopoverComponent,
     HealthExerciseComponent,
     HealthFeedComponent,
-    HealthRecipesComponent]
+    HealthRecipesComponent,
+    HealthWatchComponent]
 })
 export class ComponentsModule {}

@@ -17,6 +17,7 @@ import { PopoverComponent } from '../components/popover/popover';
 import { HealthExerciseComponent } from '../components/health-exercise/health-exercise';
 import { HealthFeedComponent } from '../components/health-feed/health-feed';
 import { HealthRecipesComponent } from '../components/health-recipes/health-recipes';
+import { HealthWatchComponent } from '../components/health-watch/health-watch';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -36,7 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PopoverComponent,
     HealthExerciseComponent,
     HealthFeedComponent,
-    HealthRecipesComponent
+    HealthRecipesComponent,
+    HealthWatchComponent
 
   ],
   imports: [
