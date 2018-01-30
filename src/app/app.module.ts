@@ -14,6 +14,7 @@ import { HealthTopDashComponent } from '../components/health-top-dash/health-top
 import { HealthYourselfComponent } from '../components/health-yourself/health-yourself';
 import { HealthGoalComponent } from '../components/health-goal/health-goal';
 import { PopoverComponent } from '../components/popover/popover';
+import { HealthExerciseComponent } from '../components/health-exercise/health-exercise';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -30,7 +31,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HealthTopDashComponent,
     HealthYourselfComponent,
     HealthGoalComponent,
-    PopoverComponent
+    PopoverComponent,
+    HealthExerciseComponent
+
   ],
   imports: [
     BrowserModule,

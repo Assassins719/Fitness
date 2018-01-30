@@ -1,0 +1,21 @@
+health-exercise {
+.card-round{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ex_card{
+    color:#464646;size:16px;font-family:roboto_font;padding-left:15px;
+}
+.ex_title{
+    display: flex;align-items: center;justify-content: center;padding-left:10px;font-size:16px;color:#464646;
+}
+.ex_desc{
+    display: flex;align-items: center;justify-content: center;margin-left:auto;margin-top:7px;margin-right:10px;color:#8b8b8b;font-size:12px;
+}
+.ex_result{
+    color:#8b8b8b;size:12px;font-family:roboto_font;
+}
+.divider{
+    height:1px; width:100%;background-color:#999;margin-bottom:10px;
+}
+}

@@ -3,15 +3,24 @@ import { HealthTopDashComponent } from './health-top-dash/health-top-dash';
 import { HealthYourselfComponent } from './health-yourself/health-yourself';
 import { HealthGoalComponent } from './health-goal/health-goal';
 import { PopoverComponent } from './popover/popover';
+import { HealthExerciseComponent } from './health-exercise/health-exercise';
+import { HealthFeedComponent } from './health-feed/health-feed';
+import { HealthRecipesComponent } from './health-recipes/health-recipes';
 @NgModule({
 	declarations: [HealthTopDashComponent,
     HealthYourselfComponent,
     HealthGoalComponent,
-    PopoverComponent],
+    PopoverComponent,
+    HealthExerciseComponent,
+    HealthFeedComponent,
+    HealthRecipesComponent],
 	imports: [],
 	exports: [HealthTopDashComponent,
     HealthYourselfComponent,
     HealthGoalComponent,
-    PopoverComponent]
+    PopoverComponent,
+    HealthExerciseComponent,
+    HealthFeedComponent,
+    HealthRecipesComponent]
 })
 export class ComponentsModule {}
