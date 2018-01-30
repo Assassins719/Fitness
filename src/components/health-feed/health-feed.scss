@@ -1,3 +1,47 @@
 health-feed {
-
+    .card-round{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .feed_header{
+        font-family: roboto_font;
+        font-size: 15px;
+        line-height: 18px;
+        color: #464646;
+        max-height:36px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .feed_desc{
+        font-family: roboto_font;
+        font-size: 15px;
+        line-height: 18px;
+        color: #8b8b8b;
+        max-height:18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .feed_topic{
+        font-family: roboto_font_thin;
+        font-size: 15px;
+        line-height: 18px;
+        color: #fff;
+        background-color: #8b8b8b;
+        padding: 0px 5px;
+        border-radius: 3px;
+        max-height:18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .feed_more{
+        font-family: abel_font;
+        font-size: 17px;
+        line-height: 18px;
+        color: #f26722;
+        width: 100%;
+        text-align: center;
+    }
+    .divider{
+        height:1px; width:100%;background-color:#999;margin-bottom:5px;margin-top: 5px;
+    }
 }
